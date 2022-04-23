@@ -1,0 +1,40 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to right, rgb(235, 255, 235), rgb(150, 150, 150));
+    height: 100vh;
+}
+.container{
+    width: 75%;
+    margin-left: 25%;
+}
+.left{
+    float: left;
+    width: 20%;
+    border-top: solid 30px blue;
+}
+.right{
+    float: right;
+    width: 80%;
+    /* margin-left: 20px; */
+    
+    padding-left: 50px;
+    margin-top: 3%;
+    /* margin-right: 25%; */
+}
+.bottom{
+    border-bottom: solid 30px blue;
+    width: 55%;
+}
+img{
+    border-radius: 50%;
+}
+.left-list{
+    display: inline-block;
+}
+.right-list{
+    display: inline-block;
+}
